@@ -10,7 +10,4 @@ if [ ! -d $OPENSHIFT_DATA_DIR/jdk1.8.0_20 ]
 		wget http://www.java.net/download/jdk8u20/archive/b17/binaries/jdk-8u20-ea-bin-b17-linux-x64-04_jun_2014.tar.gz
 		tar xvf *.tar.gz 
 		rm -f *.tar.gz
-fi	
-export JAVA_HOME=$OPENSHIFT_DATA_DIR/jdk1.8.0_20
-export PATH=$OPENSHIFT_DATA_DIR/jdk1.8.0_20/bin/:$PATH
-java -version
+fi
