@@ -3,4 +3,4 @@
 # script. The application will work only if it binds to
 # $OPENSHIFT_DIY_IP:8080
 cd $OPENSHIFT_REPO_DIR
-java -jar diy/todoapp.war &
+java -jar diy/todoapp.jar &
